@@ -1,0 +1,19 @@
+body{background-color:powderblue;
+     font-family: Arial;}
+
+     header{background-color:silver;
+    }
+    h1{color:#a52a2a}
+    nav > ul {font-family:arial;color:brown;line-height-step:0.5em;
+
+    } 
+    
+    ol{font-family:Arial; font-size:1em;
+    }
+    main{color:brown; width:100%;
+    font-size:1em;}
+    footer{color:#a52a2a;
+           font-family:Arial; font-size:1em;}
+
+   
+    p{color:brown;font-family:arial;font-size:1em;}
