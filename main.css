@@ -1,19 +1,72 @@
-body{background-color:powderblue;
-     font-family: Arial;}
+* {
+       margin: 0;
+       padding: 0;
+}
 
-     header{background-color:silver;
-    }
-    h1{color:#a52a2a}
-    nav > ul {font-family:arial;color:brown;line-height-step:0.5em;
+.Home {
+       font-weight: bold;
+       text-align: center;
+}
 
-    } 
-    
-    ol{font-family:Arial; font-size:1em;
-    }
-    main{color:brown; width:100%;
-    font-size:1em;}
-    footer{color:#a52a2a;
-           font-family:Arial; font-size:1em;}
+.About {
+       font-weight: bold;
+       text-align: center;
+}
 
-   
-    p{color:brown;font-family:arial;font-size:1em;}
+.School {
+       font-weight: bold;
+       text-align: center;
+}
+
+body {
+       max-width: 80%;
+       margin: auto;
+       text-align: center;
+       background-color: powderblue;
+       font-family: Arial;
+
+}
+
+.container {
+       display: flex;
+       flex-wrap: wrap;
+}
+
+header {
+       background-color: #808080;
+}
+
+h1 {
+       color: #a52a2a
+}
+
+nav>ul {
+       font-family: arial;
+       color: brown;
+       line-height-step: 0.5em;
+
+}
+
+ol {
+       font-family: Arial;
+       font-size: 1em;
+}
+
+section {
+       color: brown;
+       width: 100%;
+       font-size: 1em;
+}
+
+footer {
+       color: #a52a2a;
+       font-family: Arial;
+       font-size: 1em;
+}
+
+
+p {
+       color: brown;
+       font-family: arial;
+       font-size: 1em;
+}
