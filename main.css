@@ -1,48 +1,60 @@
 * {
-       margin: 0;
-       padding: 0;
+       margin: 1;
+       padding: 1;
+}
+
+header {
+       font-family: arial;
+       text-align: center;
 }
 
 .Home {
        font-weight: bold;
-       text-align: center;
+       text-align: left;
+       border: none;
 }
 
 .About {
        font-weight: bold;
-       text-align: center;
+       text-align: left;
+       border: none;
+
 }
 
 .School {
        font-weight: bold;
-       text-align: center;
+       text-align: left;
+       border: none;
+
 }
 
 body {
-       max-width: 80%;
-       margin: auto;
-       text-align: center;
-       background-color: powderblue;
+       text-align: left;
+       max-width: 70%;
+       margin: 5%;
+       background-color: #add8e6;
        font-family: Arial;
-
+       border-radius: 5px;
 }
 
+/* 2 column fluid layoput */
 .container {
        display: flex;
        flex-wrap: wrap;
 }
 
-header {
-       background-color: #808080;
+left-column,
+rigth-colomn {
+       flex: 1;
 }
 
 h1 {
-       color: #a52a2a
+       color: #eee
 }
 
 nav>ul {
        font-family: arial;
-       color: brown;
+       color: #000000;
        line-height-step: 0.5em;
 
 }
@@ -52,16 +64,41 @@ ol {
        font-size: 1em;
 }
 
-section {
-       color: brown;
-       width: 100%;
+.intro {
+       width: 40%;
+       float: right
+}
+
+main {
+       color: #000000;
+       width: 60%;
        font-size: 1em;
+       float: left;
+
+}
+
+aside {
+       background-color: #e0ffff;
+       text-align: right;
+       color: #000000;
+       border-radius: 5px;
+       background-color: peachpuff;
+}
+
+.list-container {
+       text-align: right;
 }
 
 footer {
-       color: #a52a2a;
+       color: #000000;
        font-family: Arial;
        font-size: 1em;
+       float: bottom;
+}
+
+main,
+footer {
+       background-color: #e0ffff;
 }
 
 
