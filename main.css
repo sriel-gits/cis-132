@@ -77,6 +77,14 @@ main {
 
 }
 
+img {
+       width: 600px;
+       border-radius: 20px;
+       float: left;
+       margin-right: 100px;
+}
+
+
 aside {
        background-color: #e0ffff;
        text-align: right;
@@ -101,9 +109,15 @@ footer {
        background-color: #e0ffff;
 }
 
-
 p {
        color: brown;
        font-family: arial;
        font-size: 1em;
+}
+
+.elco {
+       color: brown;
+       font-family: arial;
+       font-size: 1em;
+       float: right;
 }
