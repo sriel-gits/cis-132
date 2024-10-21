@@ -1,0 +1,52 @@
+* {
+    margin: 1px;
+    padding: 1px;
+}
+
+body {
+    background-image: url('https://www.fitfatherproject.com/wp-content/uploads/2017/09/storyblocks-group-of-multiracial-sports-people-working-out-with-barbells-in-the-gym_rAewgChTcb-min-2400.jpg');
+    background-size: cover;
+    color: auto;
+    background-color: #ffff;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header {
+    display: flex;
+    float: middle;
+    justify-content: space-between;
+    padding: 3px;
+    background-color: #000000;
+    border-radius: 25px;
+    border: 100px
+}
+
+.logo {
+    width: 50px;
+    border-radius: 25px;
+    opacity: 0.5;
+    background-color: #000000;
+}
+
+a,
+h1 {
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+    color: #ffffff;
+    text-align: left;
+
+}
+
+li {
+    display: inline;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100;
+    float: right;
+    background-color: #000000
+}
